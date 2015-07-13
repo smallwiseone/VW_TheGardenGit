@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Virtual World.CSharp.Plugins", "UnityVS.Virtual World.CSharp.Plugins.csproj", "{5897B2CA-D53A-31C4-3BCE-B0B00A8AEB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Virtual World.CSharp", "UnityVS.Virtual World.CSharp.csproj", "{9EFC30DE-ADC9-722C-F140-E80CB5B4CB86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5897B2CA-D53A-31C4-3BCE-B0B00A8AEB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5897B2CA-D53A-31C4-3BCE-B0B00A8AEB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5897B2CA-D53A-31C4-3BCE-B0B00A8AEB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5897B2CA-D53A-31C4-3BCE-B0B00A8AEB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EFC30DE-ADC9-722C-F140-E80CB5B4CB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFC30DE-ADC9-722C-F140-E80CB5B4CB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFC30DE-ADC9-722C-F140-E80CB5B4CB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFC30DE-ADC9-722C-F140-E80CB5B4CB86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

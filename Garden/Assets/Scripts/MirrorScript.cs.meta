@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 21803caa6fcaee647a405255b8992452
+timeCreated: 1431982796
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - lightBowl: {instanceID: 0}
+  - Cam: {fileID: 159142, guid: 84e54d7a143d36542b17f3c83b6d12dc, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
