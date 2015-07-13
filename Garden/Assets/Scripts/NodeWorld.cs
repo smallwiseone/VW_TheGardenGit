@@ -6,27 +6,33 @@ public class NodeWorld : MonoBehaviour {
 
 	public List<Node> nodes = new List<Node>();
 
-    public Node node_1;
+    
+	public GameObject node_0;
+	public GameObject node_1;
+	public GameObject node_2;
+	public GameObject node_3;
+	public GameObject node_4;
+	public GameObject node_5;
+	public GameObject node_6;
 
 	// Use this for initialization
 	void Start () {
 		AddNode();
 
 		AddConnection(nodes.IndexOf(nodes[0]), nodes.IndexOf(nodes[1]));
-		//AddConnection(nodes.IndexOf(nodes[0]), nodes.IndexOf(nodes[2]));
+
 		AddConnection(nodes.IndexOf(nodes[0]), nodes.IndexOf(nodes[3]));
 		AddConnection(nodes.IndexOf(nodes[0]), nodes.IndexOf(nodes[5]));
 		AddConnection(nodes.IndexOf(nodes[0]), nodes.IndexOf(nodes[6]));
 		AddConnection(nodes.IndexOf(nodes[1]), nodes.IndexOf(nodes[2]));
-		//AddConnection(nodes.IndexOf(nodes[1]), nodes.IndexOf(nodes[2]));
-		//AddConnection(nodes.IndexOf(nodes[1]), nodes.IndexOf(nodes[3]));
+
 		AddConnection(nodes.IndexOf(nodes[1]), nodes.IndexOf(nodes[5]));
-	//	AddConnection(nodes.IndexOf(nodes[2]), nodes.IndexOf(nodes[3]));
+	
 		AddConnection(nodes.IndexOf(nodes[2]), nodes.IndexOf(nodes[4]));
-		//AddConnection(nodes.IndexOf(nodes[2]), nodes.IndexOf(nodes[5]));
+	
 		AddConnection(nodes.IndexOf(nodes[2]), nodes.IndexOf(nodes[6]));
 		AddConnection(nodes.IndexOf(nodes[3]), nodes.IndexOf(nodes[4]));
-		//AddConnection(nodes.IndexOf(nodes[4]), nodes.IndexOf(nodes[5]));
+	
 		AddConnection(nodes.IndexOf(nodes[4]), nodes.IndexOf(nodes[6]));
 		AddConnection(nodes.IndexOf(nodes[5]), nodes.IndexOf(nodes[6]));
 	}
@@ -40,14 +46,14 @@ public class NodeWorld : MonoBehaviour {
 	void AddNode()
 	{
 		
-		nodes.Add (new Node(new Vector3( -90f, 30f, 60f ), "a" ));
-		nodes.Add (new Node(new Vector3(-90f, 30f, 100f), "b"));
-		nodes.Add( new Node(new Vector3(-10f, 30f, -50f), "c") );
+		nodes.Add (new Node(node_0.transform.position, "a" ));
+		nodes.Add (new Node(node_1.transform.position, "b") );
+		nodes.Add (new Node(node_2.transform.position, "c") );
         //jeffs node
-		nodes.Add( new Node(new Vector3(-20f, 30f, -90f), "d") );
-		nodes.Add( new Node(new Vector3(-30f, 30f, -10f), "e") );
-		nodes.Add( new Node(new Vector3(-10f, 30f, 70f), "f") );
-		nodes.Add( new Node(new Vector3(20f, 30f, 50f), "g") );
+		nodes.Add( new Node(node_3.transform.position, "d") );
+		nodes.Add( new Node(node_4.transform.position, "e") );
+		nodes.Add( new Node(node_5.transform.position, "f") );
+		nodes.Add( new Node(node_6.transform.position, "g") );
 		
 		
 //		foreach(Node n in nodes)
