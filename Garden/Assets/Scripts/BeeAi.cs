@@ -43,7 +43,6 @@ public class BeeAi : MonoBehaviour {
 			Next(currentNode.connectedNodes[Random.Range(0, (currentNode.GetConnectionCount()))]);
 			roaming = true;
 			startup = false;
-			Debug.Log("from Jeff  :" + roaming);
 		}
 
 		if(roaming)

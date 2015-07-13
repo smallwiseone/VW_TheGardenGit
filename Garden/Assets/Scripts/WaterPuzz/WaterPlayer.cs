@@ -34,7 +34,7 @@ public class WaterPlayer : MonoBehaviour {
     public GUISkin _guiSkin;
 	public int miniJugWater = 0;
 	public int bigJugWater = 0;
-	
+
 	int miniCapa = 3;
 	int bigCapa = 5;
 
@@ -53,7 +53,7 @@ public class WaterPlayer : MonoBehaviour {
 
 	}
 
-	void Update()
+	void FixedUpdate()
 	{
 
 		
@@ -193,6 +193,9 @@ public class WaterPlayer : MonoBehaviour {
 		Rbody.useGravity = false;
 		//transform.LookAt (CameraTest.transform);
 		UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.MouseLookEnabled = false;
+		//UnityStandardAssets.Characters.FirstPerson.MouseLook.XSensitivity = 50.0f;
+		//UnityStandardAssets.Characters.FirstPerson.MouseLook.YSensitivity = 50.0f;
+
         Camera.main.transform.rotation = Quaternion.Euler(0, 0, 0);
 	}
 
@@ -210,7 +213,7 @@ public class WaterPlayer : MonoBehaviour {
 		RaycastHit hit;
 
 		rayPoint = ray.GetPoint(distance);
-		rayPoint.z = 147; // ??
+		//rayPoint.z = 147; // ??
 		// Casts the ray and get the first game object hit
 		if (Physics.Raycast(ray, out hit, Mathf.Infinity))
 			return hit.transform.gameObject;
