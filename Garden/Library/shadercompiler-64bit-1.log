@@ -1,19 +1,41 @@
-Base path: /Applications/Unity/Unity.app/Contents
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-2046108416
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-7228
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=4320 outsize=1045 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=982 outsize=13533 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _NORMALMAP _PARALLAXMAP ok=1
+  api=4 type=0 insize=3579 outsize=2281 kw=WATER_REFRACTIVE ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=982 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _NORMALMAP _PARALLAXMAP ok=1
+  api=4 type=1 insize=3579 outsize=2891 kw=WATER_REFRACTIVE ok=1
+Cmd: preprocess
+  insize=13263 outsize=2671 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=7250 outsize=8528 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+  api=4 type=0 insize=10590 outsize=5393 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=7250 outsize=6 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+  api=4 type=1 insize=10590 outsize=6157 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=982 outsize=12158 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _NORMALMAP _METALLICGLOSSMAP ok=1
+  api=4 type=0 insize=10596 outsize=5003 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=982 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _NORMALMAP _METALLICGLOSSMAP ok=1
+  api=4 type=1 insize=10596 outsize=4743 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=982 outsize=13829 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _EMISSION _NORMALMAP _PARALLAXMAP _METALLICGLOSSMAP _ALPHATEST_ON ok=1
+  api=4 type=0 insize=10359 outsize=1989 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=982 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _EMISSION _NORMALMAP _PARALLAXMAP _METALLICGLOSSMAP _ALPHATEST_ON ok=1
+  api=4 type=1 insize=10359 outsize=3329 kw= ok=1
+Cmd: preprocess
+  insize=12408 outsize=2547 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9861 outsize=5044 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9861 outsize=5263 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9863 outsize=4751 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9863 outsize=4475 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9630 outsize=1948 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9630 outsize=3329 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9861 outsize=2793 kw=WATER_SIMPLE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9861 outsize=4873 kw=WATER_SIMPLE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF ok=1
